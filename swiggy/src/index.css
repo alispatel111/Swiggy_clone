@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.black-overlay{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.image-overlay {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 60%, rgba(0, 0, 0, 1) );
+    color: white; /* Text color for visibility */
+    display: flex;
+    align-items: end;
+    justify-content: flex-start;
+    font-size: 25px;
+    
+}
+
